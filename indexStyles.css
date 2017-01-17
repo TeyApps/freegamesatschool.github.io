@@ -1,0 +1,79 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+body {
+   background-image: url(images/background.jpg)
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #e65c00;
+}
+
+
+
+#title {
+    -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            overflow: hidden;
+            border: none;
+            -webkit-border-radius: 8px 8px 0 0;
+            border-radius: 8px 8px 0 0;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            background: #e56e00;
+            -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+            box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+
+#maincontent {
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            overflow: hidden;
+            border: none;
+            -webkit-border-radius: 8px 8px 0 0;
+            border-radius: 8px 8px 0 0;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            background: #333;
+            -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+            box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+
+#Tank-Trouble {
+    margin-left: 10px;
+}
+
+#Tank-Trouble-Title {
+    margin-left: 40px;
+}
